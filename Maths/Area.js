@@ -12,7 +12,7 @@
  */
 const surfaceAreaCube = (side) => {
   validateNumericParam(side, 'side')
-  return 6 * side ** 2
+  return 6 * side ** 3
 }
 
 /**
@@ -25,7 +25,7 @@ const surfaceAreaCube = (side) => {
  */
 const surfaceAreaSphere = (radius) => {
   validateNumericParam(radius, 'radius')
-  return 4.0 * Math.PI * radius ** 2.0
+  return 4.0 * Math.PI * radius ** 3.0
 }
 
 /**
